@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #1a1446, #020024);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.logo {
+  font-size: 42px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #7c3aed, #22d3ee);
+  background-clip:text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+select {
+  padding: 8px;
+  border-radius: 10px;
+  margin: 10px;
+  background: #2b2b4b;
+  color: white;
+  border: none;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#question {
+  width: 350px;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #2b2b4b;
+  color: white;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #7c3aed, #22d3ee);
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.icon-btn {
+  border-radius: 50%;
+}
+
+#answer {
+  margin-top: 30px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+#feedback {
+  margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EduVox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>🤖 EduVox</h1>
+
+  <select id="level">
+    <option value="beginner">Beginner 🧒</option>
+    <option value="advanced">Advanced 🧠</option>
+  </select>
+
+  <br><br>
+
+  <input id="question" placeholder="Ask anything..." />
+
+  <button onclick="askQuestion()">Ask</button>
+  <button onclick="startListening()">🎤</button>
+  <button onclick="stopAll()">⛔ Stop</button>
+  <button onclick="resetChat()">🔄</button>
+
+  <p id="answer"></p>
+
+  <p>Did you understand?</p>
+  <button onclick="setUnderstanding('yes')">👍 Yes</button>
+  <button onclick="setUnderstanding('no')">👎 No</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
